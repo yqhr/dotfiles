@@ -6,7 +6,7 @@ export EDITOR=vim
 # おまい fr Pandoc in WSL
 export GHCRTS=-V0
 
-PYENV_ROOT=/mnt/c/Users/yhori/.pyenv
+PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
